@@ -1,6 +1,10 @@
 html{
     scroll-behavior: smooth;
 }
+*
+{
+    border: 1px solid red;;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -132,6 +136,10 @@ nav .header-social
     
     
 }
+#container
+{
+    overflow: hidden;
+}
 .slid-content p{
     font-size: 1.3rem;
 }
@@ -208,7 +216,7 @@ nav .header-social
 .about
 {
     
-  overflow:hidden;
+  
 }
 .about .caption
 {
@@ -350,7 +358,8 @@ nav .header-social
 .do
 {
     background-color: #636363;
-    padding:100px 0px
+    padding:100px 0px;
+    overflow: hidden;
 
 }
 .do i
