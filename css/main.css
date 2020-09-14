@@ -1,0 +1,673 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#particles-js
+{
+
+    background-color: #333;
+    color: #fff;
+    
+}
+.big-font
+{
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+.main-color
+{
+    color: #00c3da !important;
+}
+.main-bg
+{
+    background-color: #00c3da;
+}
+nav img
+{
+    max-height: 40px;
+    
+}
+.navbar
+{
+    
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 999999;
+    padding: 0px !important;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+    
+}
+nav .header-social li{
+    display: inline;
+    padding: 0px 8px;
+    
+}
+
+nav .collapse
+{
+    padding:5px 0px;
+    
+}
+nav .header-social a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+nav .all
+{
+    margin-top: 10px;
+}
+nav .header-social
+{
+    
+    padding:5px 0px;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+    height: 100%;
+
+    padding-top: 15px;
+    
+    
+}
+.header-social,.carousel
+{
+    transition: 1s all;
+}
+/* start home section  */
+.home
+{
+    height: 100vh;
+    position: relative;
+}
+.home .carousel
+{
+    height: 100% !important;
+    width: 100%;
+    
+}
+.home .carousel img
+{
+    
+}
+.slid-content
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+ .btn{
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+ .main-bg:hover
+{
+    background-color: #65d4e0;
+    margin-top: 19px;
+}
+.slid-content .contact:hover
+{
+    color: #333;
+    background-color: #fff;
+}
+.slid-content .main-bg
+{
+    border :none;
+    transition: all 0.3s;
+    color: #fff;
+    
+    
+}
+.slid-content p{
+    font-size: 1.3rem;
+}
+.slid-content a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+ .cover
+{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right:100%;
+    background-color: #fff;
+    transition: 0.5s all;
+    
+}
+.slide-box
+{
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    width: 50px;
+    height: 100px;
+    z-index: 999999;
+    
+    
+}
+.home .carousel-control-next:hover .cover,.home .carousel-control-prev:hover .cover
+{
+    right: 0px;
+    
+    
+}
+
+.home .carousel-control-next .fa
+{
+    margin-top: 10px;
+}
+.home .carousel-control-next
+{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    
+    
+    color: #fff;
+    border: 1px solid #fff;
+    
+    
+}
+
+.home .carousel-control-prev
+{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    
+    color: #fff;
+    
+
+}
+.home .carousel-indicators
+{
+    z-index: 99999999;
+}
+/* end home section */
+
+
+/* START ABOUT SECTION  */
+.about
+{
+    
+  
+}
+.about .caption
+{
+    width: 59%;
+}
+.about .btn
+{
+    padding:10px 20px;  
+    font-weight: bolder;
+    margin-top: 20px;
+    border-radius: 0px !important;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+.about .btn:hover
+{
+    background-color: black;
+    color: #fff;
+    
+}
+.about p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+}
+.about h6{
+    padding:20px 0px;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+}
+.track::after
+{
+    content: "";
+    animation: words 4s infinite ;
+    
+    color: #00c3da;
+    font-weight: bolder;
+    padding-right: 0px;
+
+}
+
+
+.arr::before
+{
+    content: "|";
+    margin-left: 0px;
+    padding-left: 0px;
+    animation: light 0.3s infinite alternate;
+}
+@keyframes light
+{
+    0%{color: #fff;}
+    
+    100%{color: black;}
+}
+@keyframes words
+{   0%{content: "";}
+    1%{content: "W";}
+    2%{content: "We";}
+    3%{content: "Web";}
+    4%{content: "Webs";}
+    5%{content: "Websi";}
+    6%{content: "Websit";}
+    7%{content: "Websites";}
+    50%{content: "Websites";}
+    51%{content: "Website";}
+    52%{content: "Websit";}
+    53%{content: "Websi";}
+    54%{content: "Webs";}
+    55%{content: "Web";}
+    56%{content: "We";}
+    57%{content: "W";}
+    58%{content: "";}
+    
+    
+    60%{content: "a";}
+    61%{content: "ap";}
+    62%{content: "app";}
+    63%{content: "apps";}
+    94%{content: "apps";}
+    95%{content: "app";}
+    96%{content: "ap";}
+    97%{content: "a";}
+    98%{content: "";}
+}
+
+/* end about section */
+
+/* start team section  */
+
+.team h2,.cheap h2
+{
+    font-weight: bolder;
+    position: relative;
+    z-index: 99999;
+}
+.team h2::after,.cheap h2::after
+{
+    content: "c";
+    position: absolute;
+    top: -120%;
+    left: 45%;
+    font-size: 80px;
+    color: #f3f3f3;
+    z-index: -1;
+
+}
+.team .info
+{
+    width: 60%;
+}
+.team .layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: #00c3da;
+    opacity: 0;
+    top :20%;
+    transition: 0.2s all;
+    
+    
+}
+.member .fab
+{
+    margin-left: 10px;
+}
+.member:hover .layer
+{
+    
+    opacity: 0.9;
+    top:0px;
+}
+.team
+{
+    padding: 100px 0px;
+}
+/* end team section */
+
+/* start do secton */
+.do
+{
+    background-color: #636363;
+    padding:100px 0px
+
+}
+.do i
+{
+    color: #00ac9e;
+}
+.do h2
+{
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    z-index: 999;
+}
+.do ul li
+{
+    margin:6px 2px
+}
+.do h2::after
+{
+    content: "W";
+    position: absolute;
+    top: -20px;
+    left: -5px;
+    color: gray;
+    
+    font-size: 50px;
+    z-index: -1;
+}
+/* end do sectio */
+
+/* start prices section */
+.prices
+{
+    background-color: #f7f7f7;
+    
+}
+.prices h3::before
+{
+    content: "$";
+    font-size: 20px;
+    position: absolute;
+    top:-10px;
+    left:-10px;
+}
+.prices h3
+{
+    font-size: 60px;
+    font-weight: bolder;
+    position: relative;
+}
+.prices .item
+{
+    padding: 15px;
+    transition:1s all;
+    margin-top: 50px;
+    
+}
+.prices h2::after
+{
+    content: "c";
+    position: absolute;
+    top: -120%;
+    left: 48%;
+    font-size: 80px;
+    color: rgb(238, 234, 234);
+    z-index: -1;
+}
+.prices .btn
+{
+    padding: 8px;
+    
+}
+
+.gold-item
+{
+    display: flex;
+    align-items: center;
+}
+.gold-item .item
+{
+    width: 100%;
+    height: 100%;
+}
+.gold::after
+{
+    content: "BEST VALUE";
+    background-color :#00c3da;
+    position: absolute;
+    top: 0px;
+    font-size: 10px;
+    width: 80px;
+    border-radius: 30px;
+    padding: 3px;
+    color: #fff;
+    left: 70%;
+    text-align: center;
+}
+.prices .item:hover
+{
+    box-shadow:0.1px 0.1px 100px rgb(202, 200, 200) ;
+}
+/* end proces secton */
+
+/* start section clints  */
+.clints
+{
+    background-color: #f7f7f7;
+    
+}
+.clints .box img
+{
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%,50%);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+}
+.clints .box
+{
+    background-color: #fff;
+    width: 70%;
+    margin:auto;
+    padding: 50px 50px ;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.clints .carousel
+{
+    
+    padding-bottom: 100px;
+
+}
+.clints i:hover
+{
+    color: #65d4e0 !important;
+    
+}
+.clints .carousel-indicators .active
+{
+    background-color: #00c3da;
+}
+.clints .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: gray;
+    
+  }
+/* end section clints  */
+
+.contact .map
+{
+    height: 100vh;
+}
+
+.contact h2::after
+{
+    content: "G";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    color: rgb(214, 214, 214);
+    font-size: 60px;
+    z-index: -1;
+
+}
+.contact h2
+{
+    position: relative;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.form-group .alert
+{
+    display: none;
+}
+
+@media screen and (max-width:576px)
+{
+
+    .header-social
+    {
+        display: none;
+    }
+    .big-font
+    {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    .slide-box
+    {
+        display: none;
+    }
+    .do .off
+    {
+        margin-left:0px;
+    }
+    .prices .item
+    {
+        text-align: center;
+    }
+    .prices .item h3::before
+    {
+        left: 40%;
+    }
+    .about .caption
+    {
+        width: 90%;
+    }
+    .team .info
+    {
+        width: 90%;
+    }
+    .clints .box
+    {
+        width: 90% !important;
+    }
+    .contact .form
+    {
+        width: 100% !important;
+    }
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px)
+{
+  
+    .header-social
+    {
+        display: none;
+    }
+    .big-font
+    {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    .slide-box
+    {
+        display: none;
+    }
+    .do .off
+    {
+        margin-left:0px;
+    }
+    .clints .box
+    {
+        width: 90%;
+    }
+
+    .about .caption
+    {
+        width: 90%;
+    }
+    .team .info
+    {
+        width: 90%;
+    }
+    .clints .box
+    {
+        width: 90% !important;
+    }
+    .contact .form
+    {
+        width: 100% !important;
+    }
+ 
+}
+
+@media screen and (min-width:769px) and (max-width:992px)
+{
+
+    .header-social
+    {
+        display: none;
+    }
+    .big-font
+    {
+        font-size: 5rem;
+        font-weight: bolder;
+    }
+    .slide-box
+    {
+        display: none;
+    }
+    .do .off
+    {
+        margin-left:0px;
+    }
+    .clints .box
+    {
+        width: 90%;
+    }
+    .about .caption
+    {
+        width: 90%;
+    }
+    .team .info
+    {
+        width: 90%;
+    }
+    .clints .box
+    {
+        width: 90% !important;
+    }
+    .contact .form
+    {
+        width: 100% !important;
+    }
+
+
+
+
+}
+@media screen and(min-width:993px)
+{
+
+}
